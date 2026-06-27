@@ -1,0 +1,154 @@
+body {
+    background-color: rgb(8, 8, 8);
+}
+
+.entrar {
+   
+    border: 10px;
+    border-radius: 10px;
+    border-color: white;
+    
+}
+
+.banner{
+    position: relative;
+    width: 100%;
+}
+
+.banner img{
+    width: 100%;
+    display: block;
+    
+}
+
+
+.login-box{
+    position: absolute;
+
+    top: 20px;      
+    right: 104px;    
+
+    height: 215px;
+    width: 282px;
+    padding: 20px;
+
+    color: white;
+    text-align: center;
+}
+
+.login-box input{
+    width: 90%;
+    margin-bottom: 10px;
+    padding: 5px;
+    
+}
+
+.direitos{
+    text-align: center;
+    position: absolute;
+    background-color: rgb(156, 22, 22);
+    width: 100%;
+    right: 1px;
+   
+}
+
+.home img{
+    width: 100%;
+    position: relative;
+}
+
+.sair{
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    background-color: transparent;
+    border-radius: 18px;
+    border-color: white;
+    padding: 15px 25px;
+    font-size: large;
+    cursor: pointer;
+ 
+}
+
+.lista-filmes{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 35px;
+
+    background-color: black;
+    padding: 30px;
+}
+
+.filme{
+    text-align: center;
+}
+
+.filme img{
+    width: 230px;
+    height: 350px;
+    object-fit: cover;
+    display: block;
+}
+
+.botao-info{
+    display: inline-block;
+
+    margin-top: 15px;
+    padding: 10px 25px;
+
+    background-color: red;
+    color: white;
+
+    text-decoration: none;
+    border-radius: 8px;
+
+    font-weight: bold;
+}
+
+.botao-info:hover{
+    background-color: darkred;
+}
+
+.logout img{
+    width: 100%;
+}
+
+.voltar {
+    text-align: center;
+    color: white;
+    position: absolute;
+    background-color: rgb(212, 15, 15);
+    width: 1350px;
+
+
+}
+.botao-voltar{
+   text-decoration: none;
+   color: white;
+   
+}
+
+.alista{
+   width: 100%;
+    position: relative;
+}
+
+.alista img{
+    width: 34%;
+    display: block;
+}
+
+.alista-box {
+    position: absolute;
+
+    top: 20px;      
+    right: 180px;    
+
+    height: 1000px;
+    width: 500px;
+    padding: 20px;
+
+    color: white;
+    text-align: center;
+}
